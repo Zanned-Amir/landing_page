@@ -1,71 +1,53 @@
-nav {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  
-  .container-2 {
-    background-color: #1f2937;
-  height: 50vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
-  padding:5vh;
-  }
-  
-  nav {
-    background-color: #1f2937;
-    padding: 16px 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .Logo {
-    font-size: 24px;
-    color: #f9faf8;
-  }
-  
-  ul {
-    display: flex;
-    margin-right: 10px;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 20px;
-  }
-  
-  nav ul li i {
-    font-size: 18px;
-    color: #e5e7eb;
-    margin-right: 5px;
-  }
-  
-  .container-2 .box-1 {
-  text-align: left; /* Align text to the left */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
 }
-  .container-2 .box-1,
-  .container-2 .box-2 {
-    border: 10px solid aquamarine; /* Add border style (solid) */
-    height: 50vh;
-    width: 50vh; /* Set width and height to the same value */
+*{
+    margin:0;
+    padding:0;
+}
+.first-section{
+    background-color: #1d2937;
+}
+#header-logo{
+    font-size: 24px;
+    color:  #f9faf8;
+}
+.header-link{
+    font-size:18px;
+    color: #e5e7eb;
+}
+.navbar{
+   display: flex;
+   flex-direction: row;   
+   margin:10px; 
+}
+ul{
     display: flex;
-    align-items: center; /* Center content vertically */
-    justify-content: center; /* Center content horizontally */
-  }
-  
-  .container-2 .box-2 {
-    border: 10px solid red; /* Add border style (solid) */
-    background-color: #1f2937;
-  }
-  img{
-    width: 100%;
-    height: 50hv;
-  }
-  span .text-1{
-     font-size:48px ;
-     : #f9faf8;
-  }
+    flex-direction:row;
+}
+li{
+    margin :10px;
+}
+.navbar-left,.navbar-right{
+    display: flex;
+    width:50%;
+    justify-content: center;
+    align-items:  center;
+}
+h1{
+    font-size:48px;
+    font-weight: bolder;
+    color: #f9fafb;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.content-left,.content-right{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+
+}
