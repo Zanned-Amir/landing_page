@@ -43,11 +43,38 @@ h1{
 .content{
     display: flex;
     flex-direction: row;
+    margin:50px;
 }
-.content-left,.content-right{
+.content-left{
     display: flex;
     justify-content: center;
-    align-items:  center;
     flex-direction: column;
+    width:50%;
+    margin-left:200px;
+}
 
+.content-right{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin-left:50px;
+    justify-content: center;
+
+}
+.p-first{
+    font-size:18px;
+    color:#e5e7eb;
+}
+.Sign{
+    background-color: #38b2f6;
+    color:white;
+    width:100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px #3882f6;
+    margin-top:10px;
+}
+
+img{
+    margin-bottom: 50px;
 }
